@@ -3,9 +3,14 @@ h1 {
  background-color: #1abc9c;
  color: white;
  font-size: 30px;
- font-family: "Aptos", "Aptos_Embedded  Font", "Aptos_MSFontService", Calibri, Helvetica, sans-serif;
+ font-family: "Aptos Display", sans-serif;
+ font-weight: bold;
 }
 
 body {
- font-family: "Aptos", "Aptos_EmbeddedFont", "Aptos_MSFontService", Calibri, Helvectica, sans-serif;
+ font-family: "Aptos", sans-serif;
+}
+
+code {
+ font-family: "Aptos Mono", monospace;
 }
