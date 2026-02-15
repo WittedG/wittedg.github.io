@@ -3,7 +3,6 @@
 @import "{{ site.theme }}";
 h1 {
  padding: 60px;
- background-color: #282c33;
  color: white;
  font-size: 30px;
  font-family: "Aptos Display", sans-serif;
@@ -12,12 +11,12 @@ h1 {
 
 body {
  font-family: "Aptos", sans-serif;
- background-color: #282c33;
+ background-color: #000000;
  color: #FFFFFF;
 }
 
 code {
  font-family: "Aptos Mono", monospace;
- background-color: #282c33;
+ background-color: #000000;
  color: #FFFFFF;
 }
