@@ -1,0 +1,24 @@
+---
+---
+@import "{{ site.theme }}";
+h1 {
+ padding: 60px;
+ background-color: #000000;
+ color: white;
+ font-size: 30px;
+ background-color: #000000;
+ font-family: "Aptos Display", sans-serif;
+ font-weight: bold;
+}
+
+body {
+ font-family: "Aptos", sans-serif;
+ background-color: #000000;
+ color: #FFFFFF;
+}
+
+code {
+ font-family: "Aptos Mono", monospace;
+ background-color: #000000;
+ color: #FFFFFF;
+}
