@@ -1,12 +1,41 @@
+---
+---
+@import "{{ site.theme }}";
+.main-header {
+  position: fixed; /* Keeps it in the top-left like the image */
+  top: 10px;
+  left: 20px;
+  z-index: 1000; /* Ensures it stays on the top of the other content */
+}
+
+.site-logo {
+  height:   35px; /* Adjust this to match the size in your image */
+  width:    auto;
+  display: block;
+}
+
+/* Pushes your main text down so it doesn't hide under the Logo */
+body {
+  padding-top: 60px;
+}
+
 h1 {
-background-color: #FFFFFF;
-color: #000000;
-font-family: "Aptos", sans-serif; 
+ padding: 60px;
+ background-color: #FFFFFF;
+ color: #000000;
+ font-size: 30px;
+ font-family: "Aptos Display", sans-serif;
+ font-weight: bold;
 }
 
 body {
-background-color: #FFFFFF;
-color: #000000;
-font-family: "Aptos", sans-serif;
+ font-family: "Aptos", sans-serif;
+ background-color: #FFFFFF;
+ color: #000000;
 }
 
+code {
+ font-family: "Aptos Mono", monospace;
+ background-color: #FFFFFF;
+ color: #000000;
+}
