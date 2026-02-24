@@ -1,6 +1,29 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+* {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#myButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #000;
+  background-color: #EEE;
+  color: #000;
+  transition: transform 0.2s, background-color 0.3s;
+}
+#myButton:hover {
+  background-color: #DDD;
+  filter: brightness(0.9); /* Makes it glow slightly */
+  transform: scale(1.1); /*Makes the button slightly grow when hovered */
+}* {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
 .main-header {
   position: fixed; /* Keeps it in the top-left like the image */
   top: 10px;
