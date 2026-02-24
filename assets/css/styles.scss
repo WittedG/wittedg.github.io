@@ -1,6 +1,26 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+* {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#myButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #FFF;
+  background-color: #222;
+  color: #FFF;
+  transition: transform 0.2s, background-color 0.3s;
+}
+#myButton:hover {
+  background-color: #f0f0f0;
+  filter: brightness(1.2); /* Makes it glow slightly */
+  transform: scale(1.1); /*Makes the button slightly grow when hovered */
+}
 .main-header {
   position: fixed; /* Keeps it in the top-left like the image */
   top: 10px;
@@ -28,11 +48,6 @@ h1 {
  font-weight: bold;
 }
 
-body {
- font-family: "Aptos", sans-serif;
- background-color: #000000;
- color: #FFFFFF;
-}
 
 code {
  font-family: "Aptos Mono", monospace;
