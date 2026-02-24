@@ -22,7 +22,17 @@
         </p>
         <button type="button" id="myButton">CLICK ME!</button>
         <script>
-          document.getElementById("myButton").addEventListener("click", function applyStyleSheet(light-mode.scss){          });
+          document.getElementById("myButton").addEventListener("click", function(){
+              var theme = document.getElementById("theme-link");
+
+            // Check current href and toggle it
+            if (theme.getAttribute("href") == "assets/css/styles.css"){
+              theme.setAttribute("href", "assets/css/light-mode.css");
+            }
+            else {
+              theme.setAttribute("href", "assets/css/styles.css");
+            }
+          });
         </script>
 
       </body>
